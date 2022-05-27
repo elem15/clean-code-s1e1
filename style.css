@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.aside-img {
+.aside__img {
   width: 100%;
 }
 
-.aside-link {
+.aside__link {
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-wrapper {
+.adding__form {
   display: flex;
 }
 
@@ -73,7 +73,7 @@
 }
 
 /* heading */
-.tasks-head {
+.head {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,11 +101,11 @@
 }
 
 /* new task */
-.label-new-task {
+.adding__label {
   display: block;
   margin: 0 0 20px;
 }
-.input#new-task {
+.adding__input-text {
   width: 318px;
 }
 
