@@ -7,16 +7,15 @@
 </head>
 <body class="body">
   <aside class="aside">
-    <img class="aside__img" src="./eisenhower-matrix.jpg" alt="eisenhower-matrix">
+    <img class="aside__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
     <a class="aside__link" href="https://goal-life.com/page/method/matrix-eisenhower">
         Want more details?</a>
   </aside>
   <article class="main">
     <section class="adding">
-      <h3 class="adding__head"><label for="new-task" class="label head adding__label">
-          Add Item</label></h3>
+      <h3 class="head adding__head ">Add Item</h3>
       <form class="adding__form">
-        <input id="new-task" class="input input-text task adding__input-text" type="text">
+        <input id="new-task" class="input adding__input-text" type="text">
         <button class="btn adding__btn">Add</button>
       </form>
     </section>
@@ -24,22 +23,22 @@
     <section class="incomplete">
       <h3 class="head incomplete__head">Todo</h3>
       <ul id="incomplete-tasks" class="list incomplete__form">
-        <li class="list-item incomplete__list-item">
-          <input type="checkbox" class="input input-check incomplete__input_check">
-          <label class="label task incomplete__label">Pay Bills</label>
-          <input type="text" class="input input-text task incomplete__input_text">
-          <button class="btn edit incomplete__btn_edit">Edit</button>
-          <button class="btn delete incomplete__btn_delete">
-            <img class="delete-img incomplete__img_delete" src="./remove.svg" alt="remove button">
+        <li class="list__item">
+          <input type="checkbox" class="input list__input_check">
+          <label class="label list__label">Pay Bills</label>
+          <input type="text" class="input list__input_text">
+          <button class="btn list__btn_edit">Edit</button>
+          <button class="btn list__btn_delete">
+            <img class="list__img_delete" src="./remove.svg" alt="remove button">
           </button>
         </li>
-        <li class="edit-mode list-item incomplete__list-item">
-          <input type="checkbox" class="input input-check incomplete__input_check">
-          <label class="label task incomplete__label">Go Shopping</label>
-          <input type="text" value="go shopping" class="input input-text task incomplete__input_text">
-          <button class="btn edit incomplete__btn_edit">Save</button>
-          <button class="btn delete incomplete__btn_delete">
-            <img class="delete-img incomplete__img_delete" src="./remove.svg" alt="remove button">
+        <li class="edit-mode list__item">
+          <input type="checkbox" class="input list__input_check">
+          <label class="label list__label">Go Shopping</label>
+          <input type="text" value="go shopping" class="input list__input_text">
+          <button class="btn list__btn_edit">Save</button>
+          <button class="btn list__btn_delete">
+            <img class="list__img_delete" src="./remove.svg" alt="remove button">
           </button>
         </li>
       </ul>
@@ -47,13 +46,13 @@
     <section class="completed">
       <h3 class="head completed__head">Completed</h3>
       <ul id="completed-tasks" class="list completed__form">
-        <li class="list-item completed__list-item">
-          <input type="checkbox" checked class="input input-check completed__input_check">
-          <label class="label task completed__label">See the Doctor</label>
-          <input type="text" class="input input-text task compleded__input_text">
-          <button class="btn edit completed__btn_edit">Edit</button>
-          <button class="btn delete completed__btn_delete">
-            <img class="delete-img completed__img_delete" src="./remove.svg" alt="remove button">
+        <li class="list__item">
+          <input type="checkbox" checked class="input list__input_check">
+          <label class="label list__label">See the Doctor</label>
+          <input type="text" class="input list__input_text">
+          <button class="btn list__btn_edit">Edit</button>
+          <button class="btn list__btn_delete">
+            <img class="list__img_delete" src="./remove.svg" alt="remove button">
           </button>
         </li>
       </ul>
